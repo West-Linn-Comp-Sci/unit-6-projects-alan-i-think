@@ -1,5 +1,7 @@
-class Main {
-  public static void main(String[] args) {
-    ArrayListTester.main(args);
+class Main
+{
+  public static void main(String[] args)
+  {
+    Battleship1DRunner.main(args);
   }
 }
