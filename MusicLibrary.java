@@ -86,13 +86,7 @@ public class MusicLibrary
    while (!albums[middle].getNames().equals(target) && low <= high){
        if(albums[middle].getNames().compareTo(target) < 0){
            high = middle - 1;
-           System.out.println("Too low");
-           System.out.println(low + " is low " + middle + " is middle     " + high);
-           System.out.println("Album Artist is: " + albums[middle].getNames());
         }else{
-       System.out.println(low + " is low " + middle + " is middle     " + high);
-       System.out.println("Too high");
-       System.out.println("Album Artist is: " + albums[middle].getNames());
            low = middle + 1;
        middle = (low + high)/2;
     }
